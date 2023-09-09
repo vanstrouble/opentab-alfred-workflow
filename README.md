@@ -12,4 +12,4 @@ This is a custom Alfred Workflow that streamlines the process of searching for a
 2. Open the downloaded .alfredworkflow file with Alfred. Alfred will guide you through the installation of the workflow.
 3. That's it! You can now start searching for and opening folders quickly from Alfred.
 
-[Download Workflow](Release/OpenTabs.alfredworkflow)
+[Download Workflow](https://github.com/vanstrouble/opentab-alfred-workflow/releases/download/1.0.0/OpenTabs.alfredworkflow)
