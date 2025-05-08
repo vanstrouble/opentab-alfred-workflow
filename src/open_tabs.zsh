@@ -12,7 +12,7 @@ execute_applescript() {
         end tell
 EOF
     )
-    echo "AppleScript executed: $result"
+    echo -n "AppleScript executed: $result"
 }
 
 # Function to process the path and then call the AppleScript executor
@@ -27,7 +27,7 @@ open_tab() {
         echo "Opening: $path"
         execute_applescript "$path"
     else
-        echo "Invalid directory: $path"
+        echo -n "Invalid directory: $path"
     fi
 }
 
@@ -35,10 +35,15 @@ open_tab() {
 main() {
     # Use the path_input variable from Alfred
     if [[ -n "$path_input" ]]; then
-        echo "Processing path from Alfred"
-        open_tab "$path_input"
+        echo "Processing paths from Alfred"
+
+        # Split by tabs and process each path
+        IFS=$'\t' read -r -A paths <<< "$path_input"
+        for path in "${paths[@]}"; do
+            open_tab "$path"
+        done
     else
-        echo "No path provided"
+        echo -n "No path provided"
     fi
 }
 
