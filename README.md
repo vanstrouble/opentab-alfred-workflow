@@ -6,7 +6,7 @@ Alfred workflow to quickly open folders in new Finder tabs.
 
 - Get it on GitHub [here](https://github.com/vanstrouble/opentab-alfred-workflow/releases)
 
-## Usage
+## Getting Started
 
 ### Search, find and open with `ot` command
 
