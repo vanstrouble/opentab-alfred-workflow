@@ -25,6 +25,8 @@ Quick command to search and open directories in new Finder tabs:
 
 ### Via Universal Actions
 
+<img src="img/universal-action.png" alt="Open Tabs Finder Universal action" width="525"/>
+
 **Single Folder/File**:
 1. Find any folder/file using Alfred
 2. Access Universal Actions
