@@ -1,12 +1,12 @@
 # <img src="img/finder-tab-logo.png" alt="Open Tabs Finder Workflow Icon" width="45" align="center"/> Open Tabs Finder | Alfred Workflow
 
-Alfred workflow to quickly open folders in new Finder tabs.
+Quickly open any folder in a new Finder tab without breaking your flow.
 
-## Install
+## Download
 
-- Get it on GitHub [here](https://github.com/vanstrouble/opentab-alfred-workflow/releases)
+- Get it on GitHub [here](https://github.com/vanstrouble/opentab-alfred-workflow/releases/latest).
 
-## Getting Started
+## Usage
 
 ### Search, find and open with `ot` command
 
@@ -25,7 +25,7 @@ Quick command to search and open directories in new Finder tabs:
 
 ### Via Universal Actions
 
-<img src="img/universal-action.png" alt="Open Tabs Finder Universal action" width="525"/>
+<img src="img/ot-unac.png" alt="Open Tabs Finder Universal action" width="525"/>
 
 **Single Folder/File**:
 1. Find any folder/file using Alfred
