@@ -4,7 +4,8 @@ Quickly open any folder in a new Finder tab without breaking your flow.
 
 ## Download
 
-- Get it on GitHub [here](https://github.com/vanstrouble/opentab-alfred-workflow/releases/latest).
+- Available on the Alfred Gallery. [Get it here](https://alfred.app/workflows/vanstrouble/open-tabs-finder/).
+- You can also download it directly from GitHub [here](https://github.com/vanstrouble/opentab-alfred-workflow/releases/latest).
 
 ## Usage
 
